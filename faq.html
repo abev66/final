@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="zh-tw">
+  <head lang="zh-tw">
+    <title></title>
+    <meta charset="UTF-8">
+    <meta content="">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+
+    <link rel=stylesheet type="text/css" href="assets/reset.css"> 
+    <link rel=stylesheet type="text/css" href="assets/bootstrap/css/bootstrap.css"> 
+    <link rel=stylesheet type="text/css" href="assets/style.css"> 
+    <style>
+    
+        #wrapper {
+            text-align: left;
+            padding: 1em 10%;
+
+        }
+        
+        #wrapper h1 {
+            text-align: center;
+        }
+        
+        #contact-send {
+            font-size: 130%;
+            margin: 1em;
+        }
+        
+        footer {
+            box-shadow: 0 0 5px;
+        }
+        
+        @media (max-width:769px) {
+            #wrapper {
+                padding: 1em 0;
+                margin: 0;
+            }
+        }
+    
+    </style>
+  </head>
+  <body>
+ <!-- Navigation Bar -->
+
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" id="logo" href="#">logo</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="register.html">Register</a></li>
+              <li class="active"><a href="faq.html">FAQ</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+    <div id="wrapper">
+    <h1>FAQ</h1>
+    <div class="qsection">
+        <h3>Q1. What are those check marks next to my messages?</h3>
+        <hr />
+        <p>
+            In a group chat, the second check marks will appear when all participants in the group have received your message. The two blue check marks will appear when all participants in the group have read your message.
+
+        </p>
+    </div>
+    
+    <div class="qsection">
+        <h3>Q2. How do I recover deleted messages?</h3>
+        <hr />
+        <p>
+            WhatsApp automatically makes backups every day at 4 AM and stores them in the WhatsApp folder of your Android phone. This folder is either located in your device's internal memory or external microSD card. To restore the most recent backup, you will need to uninstall and reinstall WhatsApp. 
+        </p>
+    </div>
+    
+        <div class="qsection">
+        <h3>Q3. How can I tell if someone has read my message?</h3>
+        <hr />
+        <p>
+            If you see two blue check marks next to your sent message then the recipient has read your message. In a group chat or broadcast message, the check marks will turn blue when every participant has read your message. 
+        </p>
+    </div>
+    
+    </div>
+    <div class="contact-box">
+    <h2>Contact</h2>
+    <textarea placeholder="What to say?">
+    </textarea>
+    <button type="submit" id="contact-send" class="btn btn-info btn-large">SEND</button>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+            <img src="images/logo-footer.png" alt=""/>
+            <address>
+                <a href="https://www.google.com.tw/maps/place/811%E9%AB%98%E9%9B%84%E5%B8%82%E6%A5%A0%E6%A2%93%E5%8D%80%E9%AB%98%E9%9B%84%E5%A4%A7%E5%AD%B8%E8%B7%AF700%E8%99%9F%E5%9C%8B%E7%AB%8B%E9%AB%98%E9%9B%84%E5%A4%A7%E5%AD%B8/@22.7333658,120.284646,17z/data=!4m7!1m4!3m3!1s0x346e0f11ea5bfd07:0xf51481170bb08020!2zODEx6auY6ZuE5biC5qWg5qKT5Y2A6auY6ZuE5aSn5a246LevNzAw6Jmf5ZyL56uL6auY6ZuE5aSn5a24!3b1!3m1!1s0x346e0f11ea5bfd07:0xf51481170bb08020" target="_blank">81148 高雄市楠梓區高雄大學路700號</a><br />
+                Tel: <a href="tel:+88675919000">+886-7-591-9000</a>,
+                Fax: <a href="fax:+88675919083">+886-7-591-9083</a>
+            </address>
+    </footer>
+    
+  </body>
+</html>
