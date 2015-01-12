@@ -155,6 +155,13 @@ address {
 
 @media (max-width:769px) {
     
+    
+    .map-section iframe {
+        width: 100%;
+        height: 250px;
+        margin: 0;
+    }
+    
     .carousel-caption p {
         display: none;
     }
@@ -230,6 +237,7 @@ address {
 
 
 @media (max-width: 500px) {
+
     nav {
         padding: 0 10px;
     }
