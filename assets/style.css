@@ -57,7 +57,7 @@ address {
 
 .about-section {
     text-align: center;
-    padding: 2em 0;
+    padding: 2em 5em;
 }
 
 .about-section h1 {
@@ -237,7 +237,11 @@ address {
 
 
 @media (max-width: 500px) {
-
+    .about-section {
+        text-align: center;
+        padding: 2em 1em;
+    }
+    
     nav {
         padding: 0 10px;
     }
